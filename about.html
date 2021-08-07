@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+    <h1>About</h1>
+
     <table>
-        <caption>Opening Hours</caption>
+        <caption>Opening hours</caption>
         <thead>
             <tr>
                 <th>Day</th>
@@ -17,29 +32,32 @@
                 <th>Close</th>
             </tr>
         </thead>
-        <tr>
-            <td>Monday-Friday</td>
-            <td rowspan="2" >9:00</td>
-            <td>21:00</td>
-        </tr>
-        <tr>
-            <td>Saturday</td>   
-            <td>22:00</td>
-        </tr>
-        <tr>
-            <td>Sunday</td>
-            <td colspan="2">closed</td>
-        </tr>
-        <tfoot>
+        <tbody>
+
             <tr>
-                <td>2019</td>
+                <td>Monday - Friday</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td>
             </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+                
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="3">Closed</td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+               <td colspan="3">
+                   2019
+               </td>
+           </tr>
         </tfoot>
-        <tfoot></tfoot>
+
     </table>
-
-
-
 </body>
-
 </html>
